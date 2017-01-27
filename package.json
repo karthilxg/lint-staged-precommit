@@ -1,0 +1,29 @@
+{
+  "name": "lint-staged-precommit",
+  "version": "1.0.0",
+  "description": "to simulate eslint ignore issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eslint *.js",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthilxg/lint-staged-precommit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthilxg/lint-staged-precommit/issues"
+  },
+  "homepage": "https://github.com/karthilxg/lint-staged-precommit#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "husky": "^0.13.1",
+    "lint-staged": "^3.2.8"
+  }
+}
