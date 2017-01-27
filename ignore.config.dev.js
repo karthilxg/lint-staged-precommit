@@ -4,7 +4,8 @@
  * @return {[type]}   [description]
  */
 var functionName = (function () {
-    'use strict'
+    // if this file is not ignored, then eslint would try to fix the semicolon rule.
+    'use strict';
 
     var funcMemoized = function () {
         var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments))
